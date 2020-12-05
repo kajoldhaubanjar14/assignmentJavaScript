@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<!--<meta http-equiv="refresh" content="3">--> 
+	<title>Clock</title>
+	<script src="index.js"></script>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<div id="Digital_clock">
+		<h3>1: DIGITAL CLOCK</h3>
+		<div id="time">Digital Clock</div>
+		<div id="date"></div>
+	</div>
+	<hr>
+	<div id='circle'>
+		<h3>2: CIRCUMFERENCE OF CIRCLE</h3>
+		<label>Radius : </label>
+		<input type="number" id="radius" placeholder="Radius">
+		<button onclick="circumference();" >Calculate</button>
+		<label id="Circumference"></label>
+	</div>
+	<hr>
+
+	
+	<h3>3: ARRAY</h3>
+	<div id="display_array_elements" style="margin-top: 10px"></div>
+	<!--<div id="array_elements" style="margin-left: 10px"></div>-->
+	<div id='add_places' style="margin-top: 10px"></div>
+	<div id="remove" style="margin-top: 10px"></div>
+
+
+	<hr>
+	<div id="tips">
+	<h3>4: TIPS CALCULATOR</h3>
+	<input type="number" id="total_bill" placeholder="total bill amount"> &nbsp &nbsp
+	<input type="number" id="tip_percentage" placeholder="tip percentage"><br><br>
+	<button onclick="tip_calculator();">Calculate TIP</button><br><br>
+	</div>
+	<div id="tip"></div>
+</body>
+</html>

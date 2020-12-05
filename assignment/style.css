@@ -1,0 +1,55 @@
+@font-face {
+    font-family: 'ticking_timebomb_bbregular';
+    src: url('myfont/tickingtimebombbb-webfont.woff2') format('woff2'),
+         url('myfont/tickingtimebombbb-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'digital_dismayregular';
+    src: url('myfont/digital_dismay-webfont.woff2') format('woff2'),
+         url('myfont/digital_dismay-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+h3{
+
+	font-size: 30px;
+	font-family: calibri;
+}
+
+#time{
+	
+	justify-content: center;
+	font-size: 50px;
+	font-family: 'ticking_timebomb_bbregular';
+}
+
+#date{
+		justify-content: center;
+}
+
+label{
+
+	font-size: 20px;
+	font-family: calibri;
+}
+
+#remove{
+
+	display: flex;
+	
+}
+
+.addplace{
+
+	font-size: 15px;
+	font-family: 'calibri';
+}
